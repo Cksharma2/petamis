@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PetMeet — PWA Scaffold</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="/styles.css" />
+  <meta name="theme-color" content="#1565c0"/>
+</head>
+<body>
+  <header class="topbar">
+    <h1>PetMeet</h1>
+    <button id="installBtn" class="btn">Install</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Welcome to PetMeet</h2>
+      <p>This is a Progressive Web App scaffold (HTML/CSS/JS). Use it to test your Pet meet app UI and integrate with your backend later.</p>
+      <div class="actions">
+        <button id="refreshBtn" class="btn">Refresh data</button>
+        <button id="sampleAdd" class="btn muted">Add sample meetup</button>
+      </div>
+    </section>
+
+    <section class="card small">
+      <h3>Offline Ready</h3>
+      <p>Open DevTools → Application → Service Workers to inspect service worker and caching.</p>
+      <pre id="log"></pre>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© PetMeet • PWA scaffold</small>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

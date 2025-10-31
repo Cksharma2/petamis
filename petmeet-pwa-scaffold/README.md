@@ -1,0 +1,1 @@
+# PetMeet PWA scaffold\n\nSimple progressive web app scaffold: index.html, styles.css, app.js, manifest.json and sw.js.\n

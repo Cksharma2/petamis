@@ -1,0 +1,21 @@
+{
+  "name": "PetMeet",
+  "short_name": "PetMeet",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#031424",
+  "theme_color": "#1565c0",
+  "description": "Meet pet owners with same-breed meetups",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
